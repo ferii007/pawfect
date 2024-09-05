@@ -14,6 +14,8 @@ module.exports = {
         secondaryColor: "#683F24",
 
         primaryBackgroundColor: "#F7C59F",
+        secondaryBackgroundColor: "#FFCCC2",
+        frontBackgroundColor: "#BB7B6E",
 
         primaryLineColor: "#BD7D53",
       },
