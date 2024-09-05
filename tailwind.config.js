@@ -10,6 +10,16 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primaryColor: "#42210B",
+        secondaryColor: "#683F24",
+
+        primaryBackgroundColor: "#F7C59F",
+
+        primaryLineColor: "#BD7D53",
+      },
+      fontFamily: {
+        satisfy: ['Satisfy', 'Arial', 'Helvetica', 'sans-serif'],
+        sawarabi: ['Sawarabi Mincho', 'Arial', 'Helvetica', 'sans-serif'],
       },
     },
   },
