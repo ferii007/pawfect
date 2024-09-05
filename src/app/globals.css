@@ -33,6 +33,6 @@ body {
   }
 
   .button {
-    @apply text-secondaryColor bg-primaryBackgroundColor py-5 px-10 rounded-full border-[3px] border-primaryLineColor
+    @apply text-secondaryColor bg-primaryBackgroundColor py-5 px-10 rounded-full border-[3px] border-primaryLineColor hover:text-primaryBackgroundColor hover:bg-secondaryColor hover:border-secondaryColor transition-all duration-200 ease-linear
   }
 }
