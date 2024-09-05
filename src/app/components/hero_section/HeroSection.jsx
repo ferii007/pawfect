@@ -50,7 +50,7 @@ const HeroSection = () => {
                 </h2>
 
                 <p className="text-desc">
-                    Bikin hewan peliharaanmu makin sehat dan terawat dengan layanan grooming terbaik dari kami. Mulai dari potong bulu, mandi spa, sampai perawatan lengkap biar mereka tetap sehat dan nyaman. Serahkan ke kami, dan lihat sendiri hasilnya!
+                    Bikin hewan peliharaanmu makin sehat dan terawat dengan layanan grooming terbaik dari kami. Mulai dari potong bulu, mandi spa, sampai perawatan lengkap agar mereka tetap sehat dan terawat. Serahkan pada kami, dan lihat sendiri hasilnya!
                 </p>
 
                 <button className="max-w-fit button">
