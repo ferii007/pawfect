@@ -25,14 +25,18 @@ body {
 
 @layer components {
   .text-title {
-    @apply font-satisfy text-primaryColor
+    @apply font-satisfy text-primaryColor text-3xl md:text-5xl lg:text-7xl max-w-4xl
   }
 
   .text-desc {
-    @apply font-sawarabi text-primaryColor
+    @apply font-sawarabi text-primaryColor text-sm max-w-96 leading-relaxed
   }
 
   .button {
-    @apply text-secondaryColor bg-primaryBackgroundColor py-5 px-10 rounded-full border-[3px] border-primaryLineColor hover:text-primaryBackgroundColor hover:bg-secondaryColor hover:border-secondaryColor transition-all duration-200 ease-linear
+    @apply select-none text-sm md:text-base text-secondaryColor bg-primaryBackgroundColor py-3 px-6 md:py-5 md:px-10 rounded-full border-[3px] border-primaryLineColor hover:text-primaryBackgroundColor hover:bg-secondaryColor hover:border-secondaryColor transition-all duration-200 ease-linear;
+  }
+
+  .responsive-padding-l {
+    @apply pl-4 md:pl-8 lg:pl-12
   }
 }
