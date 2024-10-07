@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Ayu Rahma",
+        "review": "Pelayanan di Pawfect sangat luar biasa! Anjing saya merasa sangat nyaman dan tampil lebih rapi setelah grooming. Sangat puas!",
+        "rating": 5,
+        "image": "/images/testimonial_images/testimonial-1.webp"
+    },
+    {
+        "name": "Doni Kusuma",
+        "review": "Pawfect benar-benar profesional dalam merawat hewan peliharaan",
+        "rating": 4,
+        "image": "/images/testimonial_images/testimonial-1.webp"
+    },
+    {
+        "name": "Siti Melinda",
+        "review": "Layanan di Pawfect sangat ramah dan cepat. Saya pasti akan kembali lagi untuk perawatan berikutnya!",
+        "rating": 5,
+        "image": "/images/testimonial_images/testimonial-1.webp"
+    }
+]
