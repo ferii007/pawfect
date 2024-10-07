@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
     return (
-        <section className="relative">
+        <section className="relative overflow-x-clip">
             <div className="absolute left-0 top-0 -z-20">
                 <svg width="892" height="794" viewBox="0 0 892 794" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 />
             </div>
 
-            <div className="responsive-padding-l pt-6 md:pt-8 lg:pt-12 flex flex-col gap-5 md:gap-8 lg:gap-10">
+            <div className="responsive-padding-l responsive-padding-r pt-6 md:pt-8 lg:pt-12 flex flex-col gap-5 md:gap-8 lg:gap-10">
                 <div className="max-w-fit">
                     <a href="" className="flex items-center select-none">
                         <Image

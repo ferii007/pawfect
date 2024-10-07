@@ -44,6 +44,10 @@ body {
     @apply pl-4 md:pl-8 lg:pl-12
   }
 
+  .responsive-padding-r {
+    @apply pr-4 md:pr-8 lg:pr-12
+  }
+
   .responsive-padding-x {
     @apply px-4 md:px-8 lg:px-12
   }
