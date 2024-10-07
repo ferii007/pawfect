@@ -6,36 +6,64 @@ import Image from "next/image";
 
 const AboutSection = () => {
     return (
-        <section className="relative pt-96 lg:pt-96">
-            <div className="absolute left-0 right-0 -z-10">
-                <svg width="" height="" viewBox="0 0 1440 782" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M286.721 129.078C162.393 149.383 36.2295 135.699 0 110.847V620.546C0 620.546 220.308 757.761 379.5 777.876C590.614 804.551 699.194 694.265 909.75 663.5C1115.02 633.507 1440 631.534 1440 631.534V79.2107C1372.46 56.2094 1187.47 18.1644 955.212 2.21542C663.769 -17.7981 442.131 103.697 286.721 129.078Z" fill="#D7ADA5"/>
-                    <path d="M286.721 147.025C162.393 167.33 36.2295 153.646 0 128.794V620.546C0 620.546 220.308 757.761 379.5 777.876C590.614 804.551 699.194 683.277 909.75 652.512C1115.02 622.519 1440 620.546 1440 620.546V79.2107C1372.46 56.2094 1178.95 10.2067 945.246 10.2067C653.115 10.2067 442.131 121.644 286.721 147.025Z" fill="#FFCCC2"/>
-                </svg>
-            </div>
-
-            <div className="relative bg-secondaryBackgroundColor h-auto mt-20 md:mt-40 lg:mt-56">
-                <div className="flex justify-between responsive-padding-x">
-                    <div className="grid grid-cols-3 gap-5">
-                        {aboutSectionData.map((data, index) => (
-                            <div key={index} className="w-56 h-36 bg-frontBackgroundColor rounded-3xl overflow-hidden">
-                                <Image
-                                    src={data.src}
-                                    alt={data.alt}
-                                    layout="responsive"
-                                    width={224}
-                                    height={144}
-                                    className="rounded-3xl"
-                                />
+        <section className="relative translate-y-[35rem] sm:translate-y-[42rem] lg:translate-y-[38rem]">
+            <div className="relative bg-secondaryBackgroundColor h-full before:content-[''] before:absolute before:-top-12 before:sm:-top-28 before:lg:-top-44 before:-z-10 before:w-full before:h-12 before:sm:h-28 before:lg:h-48 before:bg-shape-1 before:bg-no-repeat before:bg-cover after:content-[''] after:absolute after:rotate-180 after:-bottom-12 after:sm:-bottom-20 after:lg:-bottom-40 after:z-10 after:w-full after:h-12 after:sm:h-28 after:lg:h-48 after:bg-shape-1 after:bg-no-repeat after:bg-cover">
+                <div className="responsive-padding-x pb-10">
+                    <div className="flex justify-between flex-col-reverse sm:flex-row gap-5 sm:gap-0">
+                        <div>
+                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                                {aboutSectionData.dataImg.map((data, index) => (
+                                    <div key={index} className="relative bg-slate-200 w-full h-60 sm:h-40 sm:w-60 rounded-3xl overflow-hidden">
+                                        <Image
+                                            src={data.src}
+                                            alt={data.alt}
+                                            layout="fill"
+                                            objectFit="cover"
+                                        />
+                                    </div>
+                                ))}
                             </div>
-                        ))}
-                    </div>
 
-                    <div>
-                        Text
+                            <div className="mt-4 sm:mt-8">
+                                <p className="text-title text-thirdColor">
+                                   Kenapa Pawfect? 
+                                </p>
+
+                                <ul className="mt-4 sm:mt-8 list-disc pl-4">
+                                    {aboutSectionData.dataPoint.map((point, index) => (
+                                        <li key={index} className="text-desc mb-1.5">
+                                            {point}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p className="mt-4 sm:mt-0 text-title text-thirdColor">
+                                Tentang Kami
+                            </p>
+
+                            <p className="mt-4 sm:mt-8 text-desc">
+                                Pawfect adalah layanan perawatan hewan peliharaan terbaik yang dirancang dengan cinta dan perhatian untuk hewan peliharaan kamu. 
+                                Kami menyediakan layanan grooming, konsultasi kesehatan, dan banyak lagi. Dengan tim profesional yang berpengalaman, kami siap membantu hewan kesayangan kamu tampil dan merasa sempurna.
+                            </p>
+
+                            <p className="mt-2 sm:mt-4 text-desc">
+                                Kami berdiri untuk menciptakan lingkungan yang nyaman dan menyenangkan bagi hewan peliharaan kamu, serta memberikan layanan yang berkualitas dengan harga terjangkau.
+                            </p>
+
+                            <button className="mt-8 max-w-fit button-2">
+                                Hubungi Kami
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+            {/* <div className="bg-secondaryBackgroundColor h-full mt-10">
+
+            </div> */}
+            <h1 className="h-[3000px]">Hello World</h1>
         </section>
     )
 }

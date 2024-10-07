@@ -36,11 +36,22 @@ body {
     @apply select-none text-sm md:text-base text-secondaryColor bg-primaryBackgroundColor py-3 px-6 md:py-5 md:px-10 rounded-full border-[3px] border-primaryLineColor hover:text-primaryBackgroundColor hover:bg-secondaryColor hover:border-secondaryColor transition-all duration-200 ease-linear;
   }
 
+  .button-2 {
+    @apply select-none text-sm md:text-base text-thirdColor bg-secondaryBackgroundColor py-3 px-6 md:py-5 md:px-10 rounded-full border-[3px] border-primaryLineColor hover:text-secondaryBackgroundColor hover:bg-thirdColor hover:border-thirdColor transition-all duration-200 ease-linear;
+  }
+
   .responsive-padding-l {
     @apply pl-4 md:pl-8 lg:pl-12
   }
 
   .responsive-padding-x {
     @apply px-4 md:px-8 lg:px-12
+  }
+}
+
+@layer utilities {
+  .bg-shape-1 {
+    background-image: url('/images/background/background-shape-1.svg');
+    width: 100%;
   }
 }
