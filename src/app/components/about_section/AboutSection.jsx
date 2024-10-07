@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
     return (
-        <section className="relative translate-y-[35rem]">
+        <section className="relative mt-[35rem]">
             <div className="about-section-container">
                 <div className="responsive-padding-x">
                     <div className="about-element pt-4">

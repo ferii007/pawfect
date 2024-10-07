@@ -61,6 +61,10 @@ body {
     width: 100%;
   }
 
+  .bg-bone {
+    background-image: url('/images/background/background-bone-paw.svg');
+  }
+
   .about-section-container {
     position: relative;
     background-color: var(--secondaryBackgroundColor);
