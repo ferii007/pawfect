@@ -37,6 +37,7 @@ const AboutSection = () => {
                                             alt={data.alt}
                                             layout="fill"
                                             objectFit="cover"
+                                            className="object-top"
                                         />
                                     </div>
                                 ))}
