@@ -42,6 +42,10 @@ body {
   .button-2 {
     @apply select-none text-sm md:text-base text-thirdColor bg-secondaryBackgroundColor py-3 px-6 md:py-5 md:px-10 rounded-full border-[3px] border-primaryLineColor hover:text-secondaryBackgroundColor hover:bg-thirdColor hover:border-thirdColor transition-all duration-200 ease-linear;
   }
+  
+  .button-3 {
+    @apply select-none text-sm md:text-base text-thirdColor bg-[#FFE5D0] py-3 px-6 md:py-5 md:px-10 rounded-full border-[3px] border-primaryLineColor hover:text-[#FFE5D0] hover:bg-thirdColor hover:border-thirdColor transition-all duration-200 ease-linear;
+  }
 
   .responsive-padding-l {
     @apply pl-4 md:pl-8 lg:pl-12
@@ -51,8 +55,24 @@ body {
     @apply pr-4 md:pr-8 lg:pr-12
   }
 
+  .responsive-padding-t {
+    @apply pt-4 md:pt-8 lg:pt-12
+  }
+
   .responsive-padding-x {
     @apply px-4 md:px-8 lg:px-12
+  }
+
+  .responsive-padding-y {
+    @apply py-4 md:py-8 lg:py-12
+  }
+
+  .input-label {
+    @apply block text-sm font-medium text-primaryColor
+  }
+
+  .input-box {
+    @apply appearance-none bg-transparent border-b-2 border-thirdColor w-96 mt-1 text-primaryColor leading-tight focus:outline-none focus:border-primaryColor duration-300 transition-colors
   }
 }
 
