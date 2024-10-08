@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Grooming Lengkap",
+        "description": "Perawatan grooming lengkap dengan produk berkualitas untuk menjaga kebersihan dan kesehatan hewan peliharaan Anda.",
+        "icon": "/images/icons/grooming-icon.webp"
+    },
+    {
+        "title": "Potong Kuku",
+        "description": "Layanan potong kuku yang aman dan nyaman untuk menjaga kesehatan kaki hewan peliharaan.",
+        "icon": "/images/icons/nail-trim-icon.webp"
+    },
+    {
+        "title": "Perawatan Gigi",
+        "description": "Cegah masalah gigi dengan layanan perawatan gigi profesional untuk hewan peliharaan Anda.",
+        "icon": "/images/icons/dental-care-icon.webp"
+    },
+    {
+        "title": "Pijat Relaksasi",
+        "description": "Pijat relaksasi yang menenangkan, dirancang khusus untuk kenyamanan hewan peliharaan Anda.",
+        "icon": "/images/icons/massage-icon.webp"
+    },
+    {
+        "title": "Dog Training",
+        "description": "Pelatihan perilaku dan ketaatan yang ramah hewan untuk membantu anjing Anda disiplin dan bahagia.",
+        "icon": "/images/icons/dog-training-icon.webp"
+    },
+    {
+        "title": "Perawatan Kulit",
+        "description": "Perawatan khusus untuk kulit hewan peliharaan yang sensitif atau bermasalah, memastikan mereka sehat dan nyaman.",
+        "icon": "/images/icons/skin-care-icon.webp"
+    },
+    {
+        "title": "Perawatan Mata",
+        "description": "Layanan pembersihan mata untuk mencegah iritasi dan menjaga penglihatan hewan peliharaan tetap sehat.",
+        "icon": "/images/icons/eye-care-icon.webp"
+    },
+    {
+        "title": "Spa Khusus",
+        "description": "Berikan hewan peliharaan Anda pengalaman spa yang mewah dengan pijatan, aromaterapi, dan perawatan bulu.",
+        "icon": "/images/icons/spa-icon.webp"
+    },
+    {
+        "title": "Panggilan",
+        "description": "Layanan antar-jemput hewan peliharaan Anda dengan transportasi aman dan nyaman.",
+        "icon": "/images/icons/pet-transport-icon.webp"
+    },
+    {
+        "title": "Vaksinasi",
+        "description": "Layanan vaksinasi oleh profesional untuk melindungi hewan peliharaan dari penyakit berbahaya.",
+        "icon": "/images/icons/vaccination-icon.webp"
+    }
+]
